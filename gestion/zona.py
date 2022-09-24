@@ -1,8 +1,8 @@
-class Zona:
+class Zona():
     
-    def __init__(self, nombre, zoo):
+    def __init__(self, nombre, *args):
         self._nombre = nombre
-        self._zoo = zoo
+        self._zoo = args
         self._animales = []
         pass
 

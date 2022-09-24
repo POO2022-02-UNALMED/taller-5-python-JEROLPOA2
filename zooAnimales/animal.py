@@ -1,4 +1,4 @@
-class Animal:
+class Animal():
 
     _totalAnimales = 0
     _zona = None

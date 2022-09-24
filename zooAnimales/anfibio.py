@@ -1,3 +1,5 @@
+from zooAnimales.animal import Animal
+
 class Anfibio(Animal):
 
     _listado = []
@@ -32,7 +34,7 @@ class Anfibio(Animal):
     def getColorPiel(self):
         return self._colorPiel
     
-    def getVenenoso(self):
+    def isVenenoso(self):
         return self._venenoso
     
     def getListado(self):

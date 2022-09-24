@@ -1,3 +1,5 @@
+from zooAnimales.animal import Animal
+
 class Mamifero(Animal):
 
     _listado = []
@@ -26,7 +28,7 @@ class Mamifero(Animal):
         leon = Mamifero(nombre,edad,"selva", genero, True, 4)
 
     
-    def getPelaje(self):
+    def isPelaje(self):
         return self._pelaje
     
     def getPatas(self):
