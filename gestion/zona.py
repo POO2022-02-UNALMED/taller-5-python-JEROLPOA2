@@ -2,7 +2,10 @@ class Zona():
     
     def __init__(self, nombre, *args):
         self._nombre = nombre
-        self._zoo = args[0]
+        if args != None:
+            self._zoo = args[0]
+        else:
+            self._zoo = None
         self._animales = []
         pass
 
