@@ -16,7 +16,7 @@ class Zoologico():
 
         for i in self._zonas:
 
-            ca += i.cantidadAimales()
+            ca += i.cantidadAnimales()
         
         return ca
     
