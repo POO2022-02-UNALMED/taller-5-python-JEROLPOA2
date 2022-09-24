@@ -31,19 +31,19 @@ class Pez(Animal):
         bacalao = Pez(nombre,edad,"oceano", genero,"blanco",6)
 
     
-    def getcolorEscamas(self):
+    def getColorEscamas(self):
         return self._colorEscamas
     
-    def getcantidadAletas(self):
+    def getCantidadAletas(self):
         return self._cantidadAletas
     
     def getListado(self):
         return self._listado
     
-    def setcolorEscamas(self,colorEscamas):
+    def setColorEscamas(self,colorEscamas):
         self._colorEscamas = colorEscamas
     
-    def setcantidadAletas(self,cantidadAletas):
+    def setCantidadAletas(self,cantidadAletas):
         self._cantidadAletas = cantidadAletas
     
     def setListado(self,listado):
