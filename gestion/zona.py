@@ -2,12 +2,12 @@ class Zona():
     
     def __init__(self, nombre, *args):
         self._nombre = nombre
-        
+        self._zoo = None
+
         if args != None:
             for i in args:
                 self._zoo = i 
-        else:
-            self._zoo = None
+
         self._animales = []
         pass
 
@@ -24,6 +24,7 @@ class Zona():
     
     def getZoo(self):
         return self._zoo
+
     
     def getAnimales(self):
         return self._animales
