@@ -2,8 +2,10 @@ class Zona():
     
     def __init__(self, nombre, *args):
         self._nombre = nombre
+        
         if args != None:
-            self._zoo = args[0]
+            for i in args:
+                self._zoo = i 
         else:
             self._zoo = None
         self._animales = []
